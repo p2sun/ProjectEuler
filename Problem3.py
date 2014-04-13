@@ -13,26 +13,11 @@
 #return last known prime factor or last element in primeFactor list
 
 def largest_prime_factor(n):
-    primes=[]
-    primeFactor=[]
     i=2
+    
     while (i<=n):
-        if (len(primes)==0):
-            primes.append(i)
-            if(n%i==0):
-                primeFactor.append(i)
-                n=n/i
-        else:
-            prime=True
-            for j in primes:
-                if i%j==0:
-                    prime=False
-                    break
-            if prime:
-                primes.append(i)
-                if (n%i == 0):
-                    primeFactor.append(i)
-                    n=n/i
+        if (n%i == 0):
+            n=n/i
         i+=1
-    return primeFactor[-1]
+    return i-1
 print largest_prime_factor(600851475143)
