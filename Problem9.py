@@ -1,3 +1,7 @@
+#There exists exactly
+#one Pythagorean triplet for which a + b + c = 1000.
+#Find the product abc.
+
 from math import *
 
 #using the Fibonacci approach does not give all
