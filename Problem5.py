@@ -1,3 +1,5 @@
+#Problem: Find lowest common multiple of numbers from 1 to 20
+
 #Runtime is less than O(n*lgn) 
 #Applied Sieve inspired approach
 
