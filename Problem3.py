@@ -22,7 +22,7 @@ def largest_prime_factor(n):
         else:
             prime=True
             for j in primes:
-                if j>=i or i%j==0:
+                if i%j==0:
                     prime=False
                     break
             if prime:
