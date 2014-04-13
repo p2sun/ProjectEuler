@@ -2,15 +2,10 @@
 #What is the largest prime factor of the number 600851475143 ?
 
 #The approach I had was to go through starting from 2 and find
-#and keep track of the prime numbers and keep track of the prime
-#factors of n.
+#and if n is divisible by current number(i), reduce it. i is a prime
+#because if it were composite, it wouldn't be able to divide n
+#since n has already been reduce by its prime factors less than itself
 
-#first check if current number is prime by iterating through the list of
-#primes less than current and seeing if divisible
-#if not and it can divide n evenly then add it to list of prime factor
-#and reduce n by that factor
-
-#return last known prime factor or last element in primeFactor list
 
 def largest_prime_factor(n):
     i=2
