@@ -1,3 +1,6 @@
+#Problem: The prime factors of 13195 are 5, 7, 13 and 29.
+#What is the largest prime factor of the number 600851475143 ?
+
 #The approach I had was to go through starting from 2 and find
 #and keep track of the prime numbers and keep track of the prime
 #factors of n.
